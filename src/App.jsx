@@ -1,13 +1,9 @@
-import { Header } from "./components/Header";
-import { TrafficSafetyHome } from "./pages/TrafficSafetyHome";
-
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-      <main className="p-6">
-        <TrafficSafetyHome />
-      </main>
+    <div>
+      <h1>مرحبًا بك في مشروع سلامة الطرق</h1>
     </div>
   );
 }
+
+export default App;
