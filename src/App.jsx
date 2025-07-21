@@ -1,12 +1,9 @@
 import React from "react";
 
-function App() {
+export default function App() {
   return (
-    <div style={{ textAlign: "center", marginTop: "100px" }}>
-      <h1>🛑 مشروع سلامة الطرق</h1>
-      <p>تم النشر بنجاح على Vercel ✅</p>
+    <div style={{ fontSize: "30px", color: "red", textAlign: "center", marginTop: "50px" }}>
+      🚀 الموقع شغال مع React فعلاً!
     </div>
   );
 }
-
-export default App;
